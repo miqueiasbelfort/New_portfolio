@@ -1,11 +1,27 @@
 import Navbar from "../../components/Navbar"
-import {Body} from "./styele"
+import {Body, Main, Apresenatation,Image, Title, Button} from "./styele"
+import ImgHome from "../../assents/webdevSite.svg"
+import { Link } from "react-router-dom"
 
 function Home(){
     return (
         <Body>
             <Navbar />
-            <h1>Home Pages</h1>
+            <Main>
+                <Apresenatation>
+                    <Title>
+                        Hey, <br />
+                        Meu nome é, <br />
+                        <span>Miqueias Belfort,</span> <br />
+                        Web Developer.
+                    </Title>
+                    <span>Front End Developer / Freelancer</span>
+                    <Link to="/contact"><Button>Fale Comigo!</Button></Link>
+                </Apresenatation>
+                <div className="boxImage">
+                    <Image src={ImgHome} alt="WEB DEV"/>
+                </div>
+            </Main>
         </Body>
     )
 }

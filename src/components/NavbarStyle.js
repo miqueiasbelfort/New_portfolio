@@ -32,7 +32,7 @@ export const ContainerNavBar = styled.div`
 `
 
 export const Icons = styled.div`
-    font-size: 30px;
+    font-size: 40px;
     color: #FFFDF7;
     display: flex;
     flex-direction: column;
