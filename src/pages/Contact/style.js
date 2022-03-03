@@ -15,6 +15,10 @@ export const Main = styled.div`
         display: flex;
         gap: 20px;
     }
+    p{
+        margin-top: 10px;
+        font-size: 10px;
+    }
 `
 
 export const Icon = styled(MdOutlineContactMail)`
