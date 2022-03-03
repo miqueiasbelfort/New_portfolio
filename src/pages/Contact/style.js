@@ -24,7 +24,7 @@ export const Main = styled.div`
 export const Icon = styled(MdOutlineContactMail)`
     font-size: 150px;
     @media (max-width: 768px){
-        font-size: 60px;
+        font-size: 45px;
     }
 `
 export const Title = styled.div`

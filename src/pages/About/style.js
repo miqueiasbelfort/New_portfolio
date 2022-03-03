@@ -47,6 +47,7 @@ export const Tecnologis = styled.div`
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        text-align: center;
     }
     @media (max-width: 768px){
         width: 100%;

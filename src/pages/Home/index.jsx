@@ -15,7 +15,11 @@ function Home(){
                         <span>Miqueias Belfort,</span> <br />
                         Web Developer.
                     </Title>
-                    <span>Front End Developer / Freelancer</span>
+                    <span>
+                        Front End Developer |   
+                        <a className="freelas" href="https://www.99freelas.com.br/user/Belfort-17"
+                        > Freelancer </a>
+                    </span>
                     <Link to="/contact"><Button>Fale Comigo!</Button></Link>
                 </Apresenatation>
                 <div className="boxImage">

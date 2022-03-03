@@ -15,7 +15,7 @@ export const Main = styled.div`
 export const Icon = styled(VscTools)`
     font-size: 150px;
     @media (max-width: 768px){
-        font-size: 70px;
+        font-size: 45px;
     }
 `
 export const Title = styled.div`
@@ -36,6 +36,6 @@ export const Projec = styled.li`
         width: 200px;
     }
     p{
-        font-size: 11px;
+        font-size: 10px;
     }
 `

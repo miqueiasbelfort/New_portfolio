@@ -38,7 +38,7 @@ function About(){
                         </TecIcons>
                    </div>
                    <div className="boxTec">
-                        <h1>Tecnologias que Estudo:</h1>
+                        <h1>Tecnologias que estudo:</h1>
                         <TecIcons>
                             <IoLogoJavascript/>
                             <GrReactjs/>
@@ -48,7 +48,7 @@ function About(){
                         </TecIcons>
                    </div>
                    <div className="boxTec">
-                        <h1>Tecnologias que tenho enteresse:</h1>
+                        <h1>Tecnologias que tenho interesse:</h1>
                         <TecIcons>
                             <SiJava/>
                             <SiPython/>

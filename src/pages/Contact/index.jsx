@@ -3,6 +3,11 @@ import { Body } from "../Home/styele"
 import {Main, Icon, Title, Input, InputMsg, ContaineInputs, Button} from "./style"
 
 function Contact(){
+
+    const prevent = e => {
+        e.preventDefault()
+    }
+
     return (
         <Body>
             <Navbar />
@@ -11,13 +16,13 @@ function Contact(){
                     <Icon/>
                     <h1>Entrar em contato!</h1>
                 </Title>
-                <form>
+                <form action="/">
                     <ContaineInputs>
                         <label htmlFor="name">Nome:</label>
                         <Input type="text" className="name" id="name" placeholder="Ex: Lucas Silva"/>
                         <label htmlFor="reason">Motivo do contato:</label>
                         <Input type="text" className="reason" id="reason" placeholder="Ex: site para empresa"/>
-                        <Button>Enviar</Button>
+                        <Button onClick={prevent}>Enviar</Button>
                     </ContaineInputs>
                     <ContaineInputs>
                         <label htmlFor="email">Email:</label>
