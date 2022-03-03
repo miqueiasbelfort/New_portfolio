@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: 'Josefin Sans', sans-serif;
+        list-style: none;
     }
     a{
         color: #FFFDF7;

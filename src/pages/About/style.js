@@ -3,8 +3,8 @@ import {FaRegUser} from "react-icons/fa" //User, github e instagram
 
 export const Main = styled.div`
     width: 100%;
-    height: 100vh;
     display: flex;
+    
     background: #1D1D1D;
     color: #FFFDF7;
     padding: 0 20px;
@@ -12,6 +12,7 @@ export const Main = styled.div`
     @media (max-width: 768px){
         flex-direction: column;
         padding: 0;
+        justify-content: center;
     }
 `
 
@@ -19,9 +20,9 @@ export const AboutMe = styled.div`
     width: 50%;
     height: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 100px 0;
+    padding: 10px 0;
 
     .title{
         display: flex;
@@ -39,8 +40,6 @@ export const AboutMe = styled.div`
     @media (max-width: 768px){
         width: 100%;
         padding: 7px;
-        align-items: center;
-        justify-content: center;
 
         .title{
             h1{
@@ -59,9 +58,6 @@ export const AboutMe = styled.div`
                 font-size: 34px;
             }
         }
-        .apresentation{
-            font-size: 20px;
-        }
     }
 `
 
@@ -69,10 +65,11 @@ export const Tecnologis = styled.div`
     width: 50%;
     height: 100%;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
     align-items: center;
-    justify-content: space-around;
 
     .boxTec{
         display: flex;
@@ -85,23 +82,11 @@ export const Tecnologis = styled.div`
         width: 100%;
         .boxTec{
             h1{
-                font-size: 20px;
+                font-size: 16px;
             }
             gap: 5px;
         }
     }
-
-    @media (max-width: 999px){
-        text-align: center;
-        justify-content: center;
-        gap: 40px;
-        .boxTec{
-            h1{
-                font-size: 25px;
-            }
-        }
-    }
-
 
 `
 export const TecIcons = styled.div`
@@ -110,16 +95,13 @@ export const TecIcons = styled.div`
     gap: 10px;
 
     @media (max-width: 999px){
-        font-size: 30px;
+        font-size: 20px;
     }
 `
 
 export const UserIcon = styled(FaRegUser)`
     font-size: 150px;
     @media (max-width: 768px){
-        font-size: 70px;
-    }
-    @media (max-width: 999px){
-        font-size: 100px;
+        font-size: 60px;
     }
 `
