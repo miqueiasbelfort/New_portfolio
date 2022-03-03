@@ -50,7 +50,7 @@ export const Tecnologis = styled.div`
     }
     @media (max-width: 768px){
         width: 100%;
-        height: 400px;
+        height: 250px;
         justify-content: center;
         padding: 20px 0;
         .boxTec{
