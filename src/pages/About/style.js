@@ -9,6 +9,7 @@ export const Main = styled.div`
     background: #1D1D1D;
     color: #FFFDF7;
     gap: 10px;
+    overflow: hidden;
     @media (max-width: 768px){
         flex-direction: column;
         padding: 20px;
