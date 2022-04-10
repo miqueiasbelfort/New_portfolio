@@ -6,7 +6,7 @@ import {Main, AboutMe, Tecnologis, UserIcon, TecIcons} from "./style"
 import {IoLogoJavascript, IoLogoHtml5, IoLogoCss3} from "react-icons/io"
 import {GrReactjs, GrNode} from "react-icons/gr"
 import {DiMongodb, DiGithubBadge} from "react-icons/di"
-import {SiTypescript, SiJava, SiPython} from "react-icons/si"
+import {SiTypescript, SiJava, SiPython, SiPhp} from "react-icons/si"
 
 function About(){
     return (
@@ -19,9 +19,7 @@ function About(){
                         <h1>Sobre mim!</h1>
                     </div>
                     <p className="apresentation">
-                        Conheci o mundo dev no começo de 2021, e no primeiro contato
-                        com a programação eu me apaixonei por essas tecnologias e pela sua liberdade e capacidade que ela proporciona para fazer 
-                        coisas incriveis.
+                    Comecei a desenvolver como hobby em março de 2021, mas fui me apaixonando cada vez mais pela tecnologia, comecei com a linguagem Python, porém me foquei em desenvolvimento web com JS, HTML, CSS, React JS, Node JS, Axios entre outras. Hoje busco formas de trabalhar com aquilo que amo fazer.
                     </p>
                 </AboutMe>
                 <Tecnologis>
@@ -52,6 +50,7 @@ function About(){
                         <TecIcons>
                             <SiJava/>
                             <SiPython/>
+                            <SiPhp/>
                         </TecIcons>
                    </div>
                 </Tecnologis>

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Body = styled.div`
     display: flex;
+    overflow: hidden;
 `
 
 export const Main = styled.div`

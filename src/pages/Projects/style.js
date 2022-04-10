@@ -18,6 +18,7 @@ export const Icon = styled(VscTools)`
         font-size: 45px;
     }
 `
+
 export const Title = styled.div`
     display: flex;
     align-items: end;
@@ -25,9 +26,23 @@ export const Title = styled.div`
     margin-bottom: 20px;
 `
 
+export const ListOfProjects = styled.ul`
+    @media (min-width: 768px){
+        display: flex;
+        gap: 15px;
+    }
+`
+
 export const Projec = styled.li`
+    margin-top: 10px;
     width: 300px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #FFFDF7;
     font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     img{
         width: 100%;
         margin-top: 10px;
@@ -36,6 +51,7 @@ export const Projec = styled.li`
         width: 200px;
     }
     p{
-        font-size: 10px;
+        font-size: 12px;
     }
+    
 `
